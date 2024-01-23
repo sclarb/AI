@@ -22,6 +22,7 @@
             <span><a href="#MachineLearning">Machine Learning</a>&nbsp;</span>
             <span><a href="#nlp">NLP (natural language processing)</a>&nbsp;</span>
             <span><a href="#chat">ChatGPT & Prompts</a>&nbsp;</span>
+            <span><a href="#chat">ChatGPT Plugins</a>&nbsp;</span>
             <span><a href="#notes">Notes</a>&nbsp;</span>
         </h4>
     </div>
@@ -163,7 +164,7 @@
             <li>Output format - Ex: List 5 programming languages focused on web development explaining primary purpose for each. Generate output with format: Programming language -> Utilization</li>
             <li>Role-based/System prompting - Ex: You are an urban planner who has created many smart cities. 1. Create presentation slides etc... 2. No more than 3 bullet points per slide, 3. Put motivational quote on smart cities on second slide.</li>
             <li>Few or zero-shot prompting is a technique that leverages the capabilities of Large Language Models (LLMs) to perform specific tasks. By providing a few examples of desired output, known as "shots," you can condition the model to generate similar output, be it text, code, or images.</li>
-            <li>Chain of thought prompting: 1) breaking down a complex subject into smaller chunks, 2) ask AI to explain the answer. Please see this <a href="https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AVA6C2%3Ac31e89ea-2c45-4a51-a8db-f6daf015d57f/?filetype=application%2Fpdf" target="_blank">pdf</a> to see the fantastic results.</li>
+            <li>Chain of thought prompting: 1) breaking down a complex subject into smaller chunks, 2) ask AI to explain the answer. Please see this <a href="ChainofThought.pdf" target="_blank">pdf</a> to see the fantastic results.</li>
                 <ul>
                     <li>Question #1: Currently, our company offers etc.</li>
                     <li>Question #2: Our company has canvassed the existing marketplace etc.</li>
@@ -174,7 +175,22 @@
                     <li>Question #7: how would you etc.</li>
                     <li>Question #*: what would you etc.</li>
                 </ul>
+            <li>Tone prompting - ex: Rewrite the following email in the style of Rudyard Kipling and make it rhyme.</li>
+            <li>Style prompting - ex: Re-write any email that I paste in here using my style of writing. As a reference I will provide 2-3 samples I wrote: etc... ending with: To repeat, taking these 2-3 emails into account, rewrite any future text that I provide here in that style of writinhg. Got it?</li>
+            <li>Structure your data into a markdown table - ex: Marko is working in the IT industry as a QA. He was living in Belgrade, capital of Serbia, but after Covid he moved to Thailand to work remotely.</li>
+            <li>Text summarization - ex: Summarize the following text and create a title. Output format: SUMMARY: Text TITLE: Created Title</li>
+            <li>Classification text - ex: Classify provided text into three classes: Negative, Positive, Neutral. Output format: [SENTIMENT]: Text</li>
+            <li>Coding generation, test your code</li>
+            <li></li>
         </ol>
+    </div>
+
+    <hr id="plugs">
+    <div class="margin15">
+        <h2>ChatGPT Plugins</h2>
+
+        <p>Plugin other sources of data which then get incorporated into the LLM. There are a lot of plugins, such as Kayak or Zillow, but you gotta have the professional version of ChatGPT. For example, you can use the Bing plugin and then prompt "using the internet as a source, present a list of the latest compositions for viola in the last 10 years."</p>
+    </div>
 
     <hr id="notes">
     <div class="margin15">
@@ -187,6 +203,11 @@
             <li>Transfer Learning: open source results</li>
             <li>Have ChatGPT ask <em>YOU</em> clarifying questions!</li>
             <li>Repitition of points in a prompt reinforce desired subject matter and result desired</li>
+            <li>Insertion or Jailbreak chats hack techniques</li>
+            <li>Use 'continue' if you want AI to continue...</li>
+            <li>Have it check it's own work by 1) copying initial answer and then 2) In a NEW chat, using/amplifying the context of the first chat, ask it to refine the text you copied!</li>
+            <li> LLMs are algorithms as much as they are neural networks - they rank the probability of words following an original word or set of words. For ex, start with 'I' and there's an 80% probability that the next word will be 'love' or 'am', etc. The larger the data set of words and responses, the more viable answers are likely to be.</li>
+            <li><a href="https://www.technologyreview.com/2015/09/17/166211/king-man-woman-queen-the-marvelous-mathematics-of-computational-linguistics/" target="_blank">King - man + woman = queen</a>... the famous word vector equation. Check out <a href="https://www.linkedin.com/pulse/demystifying-word-vectors-how-large-language-models-niclas-johansson/" target="_blank">Demystifying Word Vectors</a>.</li>
         </ol>
     </div>
 
